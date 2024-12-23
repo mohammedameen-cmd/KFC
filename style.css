@@ -701,36 +701,53 @@ h5{
     .heading {
         flex-direction: column;
         align-items: center;
+        margin-top: 30px;
+        margin-left: -450px;
     }
 
     #header-head {
         font-size: 14px; /* Smaller text size for mobile */
+       
     }
 
     #location {
         font-size: 10px;
         padding: 3px;
         width: auto;
+        margin-left: -450px;
     }
 
     .navbar {
         flex-direction: column; /* Stack nav items vertically */
         align-items: center;
+        margin-left: -450px;
+        
     }
 
     .section1, .section2 {
-        margin: 10px;
+        margin: 0px;
+      
         text-align: center; /* Center-align for small screens */
+    }
+    .section1{
+        margin-top: 20px;
+    }
+    .section2{
+        margin-bottom: 30px;
     }
 
     .picture {
         height: 200px; /* Further adjust banner image height */
+        
+    }
+    .picture-main{
+        width: 480px;
     }
 
     .categories {
         margin: 10px;
         height: auto;
-        margin-top: 250px;
+        margin-top:-10px;
     }
 
     .set1, .set2 {
@@ -754,16 +771,17 @@ h5{
     }
 
     .offer-container {
-        flex-direction: column; /* Stack offers vertically */
+         /* Stack offers vertically */
         gap: 15px;
+        width: 400px;
     }
 
     .offer-items {
-        width: 95%;
+        width: 105%;
     }
 
     #offer-img {
-        height: 150px; /* Adjust offer image height */
+        height: 250px; /* Adjust offer image height */
     }
 
     #offer-head {
@@ -783,7 +801,7 @@ h5{
     .footer {
         flex-direction: column;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 1100px;
     }
 
     .footer-contents, .footer-location, .footer-store {

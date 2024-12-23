@@ -1,5 +1,3 @@
-CSS
-
 *{
     margin: 0;
     padding: 0;
@@ -445,4 +443,365 @@ h5{
 
    color: dimgray;
    background-color: white;
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Responsive for screens with max-width of 769px (Tablets) */
+@media (max-width: 769px) {
+    .first-sec {
+        height: 100px;
+    }
+
+    .heading {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #header-head {
+        font-size: 20px;
+    }
+
+    #location {
+        font-size: 14px;
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .section1,
+    .section2 {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .picture {
+        height: 300px;
+    }
+
+    .categories {
+        padding: 10px;
+    }
+
+    .set1,
+    .set2 {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .flex-item {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #cat-head {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .offer-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .offer-items {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #offer-img {
+        width: 100%;
+        height: auto;
+    }
+
+    #offer-head {
+        font-size: 22px;
+    }
+
+    #offer-button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer-contents {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer-loc {
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+/* Base styles to reset padding/margin and improve box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* For screens with a max-width of 760px (Tablets) */
+@media (max-width: 760px) {
+    .first-sec {
+        height: 100px; /* Reduce header height */
+    }
+
+    .heading {
+        flex-direction: column; /* Stack logo and links vertically */
+        align-items: center;
+        text-align: center;
+    }
+
+    #header-head {
+        font-size: 18px; /* Adjust text size for tablets */
+        margin: 5px;
+    }
+
+    #location {
+        font-size: 12px;
+        width: auto;
+        padding: 5px;
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack nav items */
+        align-items: center;
+        height: auto;
+        
+    }
+
+    .section1, .section2 {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center; /* Center-align text for better visuals */
+    }
+
+    .picture {
+        height: 350px; /* Adjust banner image height */
+    }
+
+    .categories {
+        height: auto; /* Let it adjust dynamically */
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .set1, .set2 {
+        flex-direction: column; /* Stack categories vertically */
+        align-items: center;
+        margin: 15px 0;
+    }
+
+    .flex-item {
+        width: 90%; /* Reduce card width for smaller screens */
+        margin-bottom: 20px;
+    }
+
+    #cat-head {
+        font-size: 22px; /* Reduce category heading size */
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .exclusives {
+        height: auto; /* Adjust dynamically */
+        padding: 20px;
+    }
+
+    .offer-container {
+        flex-wrap: wrap; /* Allow offers to wrap */
+        justify-content: center;
+        gap: 20px; /* Add spacing between offer items */
+        margin-top: 100px;
+    }
+
+    .offer-items {
+        width: 90%; /* Adjust width for smaller screens */
+        margin: 10px auto;
+    }
+
+    #offer-img {
+        width: 100%;
+        height: auto;
+    }
+
+    #offer-head {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    #offer-button {
+        font-size: 14px; /* Smaller button text */
+        padding: 8px 12px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .footer-contents, .footer-location, .footer-store {
+        flex-direction: column;
+        margin: 10px ;
+        align-items: center;
+        
+    }
+    .footer-contents{
+        margin-top: 950px;
+    }
+    .kfc-india{
+        margin-top: 80px;
+    }
+
+    #footer-loc, #kfc-tags {
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
+        margin: 10px 0;
+        margin-top: 50px;
+    }
+    .icon-collection{
+        margin-left: -10px;
+        margin-top: -60px;
+    }
+}
+
+/* For screens with a max-width of 480px (Mobile Phones) */
+@media (max-width: 480px) {
+    .first-sec {
+        height: 80px; /* Further reduce header height */
+    }
+
+    .heading {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header-head {
+        font-size: 14px; /* Smaller text size for mobile */
+    }
+
+    #location {
+        font-size: 10px;
+        padding: 3px;
+        width: auto;
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack nav items vertically */
+        align-items: center;
+    }
+
+    .section1, .section2 {
+        margin: 10px;
+        text-align: center; /* Center-align for small screens */
+    }
+
+    .picture {
+        height: 200px; /* Further adjust banner image height */
+    }
+
+    .categories {
+        margin: 10px;
+        height: auto;
+        margin-top: 250px;
+    }
+
+    .set1, .set2 {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .flex-item {
+        width: 95%; /* Reduce card width for mobile */
+    }
+
+    #cat-head {
+        font-size: 18px; /* Further reduce heading size */
+        text-align: center;
+    }
+
+    #menu {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .offer-container {
+        flex-direction: column; /* Stack offers vertically */
+        gap: 15px;
+    }
+
+    .offer-items {
+        width: 95%;
+    }
+
+    #offer-img {
+        height: 150px; /* Adjust offer image height */
+    }
+
+    #offer-head {
+        font-size: 18px;
+    }
+
+    #offer-para {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    #offer-button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer-contents, .footer-location, .footer-store {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .icon-collection {
+        margin-top: 10px;
+    }
+
+    .copyright {
+        font-size: 10px;
+        margin: 5px 0;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
 }
